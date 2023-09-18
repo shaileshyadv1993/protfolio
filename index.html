@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- Desktop menu -->
+    <nav class="desktop-nav">
+      <div class="logo">
+        <img src="./assets/images/logo.png" alt="" srcset="" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Hamburger Menu -->
+    <nav class="hamburger-nav">
+      <div class="logo">
+        <img src="./assets/images/logo.png" alt="" srcset="" />
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon"></div>
+      </div>
+      <ul class="hamburger-nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Profile section start -->
+    <section class="profile">
+      <div class="section_pic-container">
+        <img src="./assets/images/DP.jpg" alt="myDP" width="400" height="300" />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Shailesh K. Yadav</h1>
+        <p class="section_text_p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-1"
+            onclick="window.open('./assets/cv/Shailesh CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-2">Contact Me</button>
+        </div>
+        <div class="social-container">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/61/61109.png"
+            alt="linkedin"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/shailesh-yadav-b9b970b1')"
+          />
+
+          <div>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+              alt="My github profile"
+              class="icon"
+              onclick="window.open('https://github.com/shaileshyadv1993')"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Profile section end -->
+
+    <!-- About Section Start -->
+    <section id="about">
+      <div class="about_section">
+        <p class="section_text_p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section_pic-container">
+            <img
+              src="./assets/images/logo.png"
+              alt="profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/images/experence.png"
+                  alt="experence"
+                  srcset=""
+                />
+                <h3>Experince</h3>
+                <p>
+                  1+ years <br />
+                  <strong>Frontend Developer</strong>
+                </p>
+              </div>
+              <div class="details-container">
+                <i class="fa-solid fa-school"></i>
+                <h3>Education</h3>
+                <p>
+                  Master Degree <br />
+                  <strong>University Of Wollongong</strong>
+                </p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate ad autem eligendi aliquam. Maxime natus quasi vero
+                dicta dolor architecto nemo laboriosam praesentium
+                necessitatibus possimus. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Experience Section Start -->
+    <section id="experience">
+      <!-- <p class="section_text_p1">Explore my</p> -->
+      <p class="title">Experience</p>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/images/checkmark.png"
+                  alt="checkmark"
+                  srcset=""
+                  class="icon"
+                />
+                <h2>HTML</h2>
+                <p>Experienced</p>
+              </article>
+              <article>
+                <img
+                  src="./assets/images/checkmark.png"
+                  alt="checkmark"
+                  srcset=""
+                  class="icon"
+                />
+                <h2>CSS</h2>
+                <p>Experienced</p>
+              </article>
+              <article>
+                <img
+                  src="./assets/images/checkmark.png"
+                  alt="checkmark"
+                  srcset=""
+                  class="icon"
+                />
+                <h2>JavaScript</h2>
+                <p>Experienced</p>
+              </article>
+              <article>
+                <img
+                  src="./assets/images/checkmark.png"
+                  alt="checkmark"
+                  srcset=""
+                  class="icon"
+                />
+                <h2>React</h2>
+                <p>Experienced</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Experience Section End -->
+
+    <!-- Project section start -->
+    <section id="project">
+      <p class="section_text_p1">Browse my Projects</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-container-project">
+          <div class="details-containers-project color-container">
+            <div class="article-container-project">
+              <img
+                src="./assets/images/project-images/project-1.jpg"
+                alt="Project-1"
+                class="project-img"
+              />
+              <h2 class="experience-sub-title project-title">Project One</h2>
+              <div class="project-btn-container">
+                <button class="btn btn-color-1 project-btn">Github</button>
+                <button class="btn btn-color-1 project-btn">Live demo</button>
+              </div>
+            </div>
+            <div class="article-container-project">
+              <img
+                src="./assets/images/project-images/project-2.jpg"
+                alt="Project-2"
+                class="project-img"
+              />
+              <h2 class="experience-sub-title project-title">Project Two</h2>
+              <div class="project-btn-container">
+                <button class="btn btn-color-1 project-btn">Github</button>
+                <button class="btn btn-color-1 project-btn">Live demo</button>
+              </div>
+            </div>
+            <div class="article-container-project">
+              <img
+                src="./assets/images/project-images/project-3.jpg"
+                alt="Project-3"
+                class="project-img"
+              />
+              <h2 class="experience-sub-title project-title">Project Three</h2>
+              <div class="project-btn-container">
+                <button class="btn btn-color-1 project-btn">Github</button>
+                <button class="btn btn-color-1 project-btn">Live demo</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project section end -->
+  </body>
+</html>
